@@ -1,0 +1,16 @@
+package estruturaDados;
+
+import java.util.ArrayList;
+
+public class Lista {
+
+	public static void main(String[] args) {
+		ArrayList<String> carros = new ArrayList<String>();
+		carros.add("Uno"); //ADD adiciona sempre ao final da lista
+		carros.add("Gol");
+		carros.add("Palio");
+		
+		System.out.println(carros);
+	}
+
+}

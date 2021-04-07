@@ -1,0 +1,28 @@
+package listaCompras;
+import java.util.*;
+public class Pilha {
+
+	public static void main(String[] args) {
+		Stack<String> stack = new Stack<>();
+		
+		//adicionado elementos na pilha
+		
+		stack.add("LIvro 1");
+		stack.add("LIvro 2");
+		stack.add("LIvro 3");
+		stack.add("LIvro 4");
+		stack.add("LIvro 5");
+		
+		System.out.println(stack);
+		
+		//removendo elemento da pilha
+		
+		System.out.println("Ultimo elemento removido" + stack.pop()); //remove o ultimo elemtento
+		System.out.println("Elemento removido" + stack);
+		
+		//retonar o elemendo do topo da pilha sem remover
+		stack.peek();
+		System.out.println("Elemento verificado" + stack.peek());
+	}
+
+}

@@ -1,0 +1,17 @@
+package digitalInovationOne;
+import java.util.HashSet;
+import java.util.Set;
+import java.util.*;
+public class Classe01 {
+
+	public static void main(String[] args) {
+			
+			
+		Scanner entrada = new Scanner(System.in);
+		System.out.println("Digite seu nome: ");
+		entrada = entrada.nextInt();
+		System.out.println(entrada);
+	}
+		
+
+}

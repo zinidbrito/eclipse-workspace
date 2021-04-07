@@ -1,0 +1,8 @@
+package listaCompras;
+
+public class ListaCompras {
+	public void iniciar() {
+		
+	}
+
+}

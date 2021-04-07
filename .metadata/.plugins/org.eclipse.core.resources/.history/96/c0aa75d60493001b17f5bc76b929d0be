@@ -1,0 +1,29 @@
+package estruturaDados;
+
+import java.util.ArrayList;
+
+public class Lista {
+
+	public static void main(String[] args) {
+		ArrayList<String> carros = new ArrayList<String>();
+		
+		carros.add("Uno"); //ADD adiciona sempre ao final da lista
+		carros.add("Gol");
+		carros.add("Palio");	
+		
+		carros.add(1, "Sandero");
+		
+		for (int i = 0; i < carros.size(); i++) { //SIZE retorna o tamanho da lista
+			System.out.println(carros.get(i)); //GET retorna um valor na lista
+		}
+		
+		carros.remove(0); //REMOVER remove a posisção definida no parenteses
+		carros.remove(1);
+		
+		System.out.println("Removendo...");
+		for (int i = 0; i < carros.size(); i++) { //SIZE retorna o tamanho da lista
+			System.out.println(carros.get(i)); //GET retorna um valor na lista
+		}
+		
+	}
+}

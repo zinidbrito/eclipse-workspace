@@ -1,0 +1,24 @@
+package digitalInovationOne;
+import java.util.HashSet;
+import java.util.Set;
+
+public class Classe01 {
+
+	public static void main(String[] args) {
+		Set<Double> notasAlunos = new HashSet<>();
+		notasAlunos.add(5.8);
+		notasAlunos.add(9.8);
+		notasAlunos.add(7.8);
+		notasAlunos.add(0.8);
+		notasAlunos.add(1.8);
+		notasAlunos.add(2.8);
+		notasAlunos.add(3.8);
+		notasAlunos.add(4.8);
+		
+		System.out.println(notasAlunos);
+		
+		
+	}
+		
+
+}

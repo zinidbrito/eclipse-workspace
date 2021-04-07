@@ -1,0 +1,24 @@
+package listaCompras;
+import java.util.*;
+public class Pilha {
+
+	public static void main(String[] args) {
+		Stack<String> stack = new Stack<>();
+		
+		//adicionado elementos na pilha
+		
+		stack.add("LIvro 1");
+		stack.add("LIvro 2");
+		stack.add("LIvro 3");
+		stack.add("LIvro 4");
+		stack.add("LIvro 5");
+		
+		System.out.println(stack);
+		
+		//removendo elemento da pilha
+		
+		System.out.println(stack.pop());
+		System.out.println(stack);
+	}
+
+}

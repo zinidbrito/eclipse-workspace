@@ -1,0 +1,5 @@
+package sequenciaParentesesColchetes;
+
+public class Sequencia {
+	public void iniciar() {
+}

@@ -1,0 +1,50 @@
+package listaCompras;
+import java.util.*;
+/* Digite o comando desejado:
+*1 - ver a lista
+	*2 - adicionar item na lista
+*3 - remover item na lista
+*4 - limpar lista
+*5- sair
+*/
+public class ListaCompras {
+	private ArrayList<String> lista = new ArrayList<>();
+	private Scanner entNum = new Scanner(System.in);
+
+	public void iniciar() {
+		mostrarMenu();
+		String opcao = entNum.nextLine();
+		while (!opcao.equals("5")) {
+			switch (opcao) {
+			case "1":
+				break;
+			case "2":
+				break;
+			case "3":
+				break;
+			case "4":
+				break;
+			case "5":
+				break;
+				default:
+					System.out.println("Opção inválida");
+					mostrarMenu();
+					opcao = entNum.nextLine();
+			}
+		}
+		
+	}
+	
+	private void mostrarMenu() {
+		StringBuilder sb = new StringBuilder();
+		sb.append("				|########MENU DE OPÇÕES########|\n");
+		sb.append("				|   Digite o comando desejado  |\n");
+		sb.append("				|[1] - ver a lista             |\n");
+		sb.append("				|[2] - adicionar item na lista |\n");
+		sb.append("				|[3] - remover item na lista   |\n");
+		sb.append("				|[4] - limpar lista            |\n");
+		sb.append("				|[5] - sair                    |\n");
+		sb.append("				################################");
+		System.out.println(sb.toString());
+	}
+}

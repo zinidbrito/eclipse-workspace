@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;filaAtendimento.filaAtendimento&apos; to &apos;FilaAtendimento&apos;&#x0D;&#x0A;- Original project: &apos;filaAtendimento&apos;&#x0D;&#x0A;- Original element: &apos;filaAtendimento.filaAtendimento&apos;&#x0D;&#x0A;- Renamed element: &apos;filaAtendimento.FilaAtendimento&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;filaAtendimento&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;filaAtendimento{filaAtendimento.java[filaAtendimento" matchStrategy="1" name="FilaAtendimento" qualified="false" references="true" similarDeclarations="false" stamp="1617745627728" textual="false" version="1.0"/>
+</session>

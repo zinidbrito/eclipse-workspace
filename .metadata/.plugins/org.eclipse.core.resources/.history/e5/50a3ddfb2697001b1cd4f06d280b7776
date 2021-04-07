@@ -1,0 +1,9 @@
+package estruturaDados;
+import java.util.*;
+
+public class Stack {
+	Pilha<String> pilha = new Pilha<>();{
+		
+	}
+
+}

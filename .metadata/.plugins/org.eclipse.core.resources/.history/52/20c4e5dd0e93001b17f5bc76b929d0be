@@ -1,0 +1,33 @@
+package listaCompras;
+import java.util.*;
+/* Digite o comando desejado:
+*1 - ver a lista
+	*2 - adicionar item na lista
+*3 - remover item na lista
+*4 - limpar lista
+*5- sair
+*/
+public class ListaCompras {
+	private ArrayList<String> lista = new ArrayList<>();
+	private Scanner entCaracter = new Scanner(System.in);
+
+	public void iniciar() {
+		
+	
+		
+	}
+	
+	private void mostrarMenu() {
+		StringBuilder sb = new StringBuilder();
+		sb.append("######MENU DE OPÇÕES##########");
+		sb.append("Digite o comando desejado\n");
+		sb.append("1 - ver a lista\n");
+		sb.append("2 - adicionar item na lista\n");
+		sb.append("3 - remover item na lista\n");
+		sb.append("4 - limpar lista\n");
+		sb.append("5- sair\n");
+		sb.append("#############################");
+		
+	}
+
+}

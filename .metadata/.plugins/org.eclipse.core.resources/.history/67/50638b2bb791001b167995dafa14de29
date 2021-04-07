@@ -1,0 +1,11 @@
+package digitalInovationOne;
+import java.util.HashSet;
+
+public class Classe01 {
+
+	public static int main(String[] args) {
+		String nome = "GAbriel";
+		return (nome.hashCode());
+	}
+
+}
